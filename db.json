@@ -1,11 +1,16 @@
 {
-  "accountData": [
+  "accountBalance": [
     {
-      "id": 1,
-      "title": "hello"
+      "accountInfo": {
+        "accountId": "0883-123987",
+        "displayName": "0883-123987",
+        "nickname": "Home"
+      },
+      "dueAmount": {
+        "currencyCode": "USD",
+        "amountInMicros": 20000000
+      },
+      "dueDate": "2018-05-01T18:09:16Z"
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
