@@ -1,21 +1,36 @@
 {
-    'accountData': {
-      'accountName': 'Platinum Charge Card',
-      'accountId': '1001',
-      'balanceTitle': 'ACCOUNT_BALANCE_TITLE_TOTAL_BALANCE',
-      'bankAccountType': 'BANK_ACCOUNT_TYPE_CHARGE_CARD',
-      'balance': {'currencyCode': 'USD', 'units': '3059', 'nanos': 670000000}
+  "accountData": {
+    "accountName": "Platinum Charge Card",
+    "accountId": "1001",
+    "balanceTitle": "ACCOUNT_BALANCE_TITLE_TOTAL_BALANCE",
+    "bankAccountType": "BANK_ACCOUNT_TYPE_CHARGE_CARD",
+    "balance": {
+      "currencyCode": "USD",
+      "units": "3059",
+      "nanos": 670000000
+    }
+  },
+  "accountIndex": "5",
+  "billData": {
+    "dueDate": "2020-07-17T12:00:00.000000000Z",
+    "statementBalanceTitle": "STATEMENT_BALANCE_TITLE_PAYMENT_DUE",
+    "statementBalance": {
+      "currencyCode": "USD",
+      "units": "959",
+      "nanos": 770000000
     },
-    'accountIndex': '5',
-    'billData': {
-      'dueDate': '2020-07-17T12:00:00.000000000Z',
-      'statementBalanceTitle': 'STATEMENT_BALANCE_TITLE_PAYMENT_DUE',
-      'statementBalance':
-          {'currencyCode': 'USD', 'units': '959', 'nanos': 770000000},
-      'minimalPaymentAllowed':
-          {'currencyCode': 'USD', 'units': '20', 'nanos': 550000000},
-      'maxPaymentAllowed':
-          {'currencyCode': 'USD', 'units': '2000', 'nanos': 550000000}
+    "minimalPaymentAllowed": {
+      "currencyCode": "USD",
+      "units": "20",
+      "nanos": 550000000
     },
-    'guiDisclaimer': {'url': 'http://google.com'}
+    "maxPaymentAllowed": {
+      "currencyCode": "USD",
+      "units": "2000",
+      "nanos": 550000000
+    }
+  },
+  "guiDisclaimer": {
+    "url": "http://google.com"
   }
+}
