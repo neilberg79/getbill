@@ -1,6 +1,5 @@
 {
-  "response": {
-    "@type": "type.googleapis.com/google.actions.myservices.v1.GetAccountBalanceResponse",
+  "response": {    
     "accountBalance": [
       {
         "accountInfo" : {
